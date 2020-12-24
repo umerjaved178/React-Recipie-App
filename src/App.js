@@ -35,10 +35,11 @@ function App() {
         <input className="search-bar" type="text" onChange={onChangeHandler} />
         <button className="search-button" type="submit">SEARCH</button>
       </form>
-
-      {searchResult.map(singleRecipe => 
-                      <Recipe key={singleRecipe.recipe.label} title={singleRecipe.recipe.label} calories={singleRecipe.recipe.calories} image={singleRecipe.recipe.image} ingredients={singleRecipe.recipe.ingredients}/>
-      )}
+      <div className="recipes">
+        {searchResult.map(singleRecipe => 
+                        <Recipe key={singleRecipe.recipe.label} title={singleRecipe.recipe.label} calories={singleRecipe.recipe.calories} image={singleRecipe.recipe.image} ingredients={singleRecipe.recipe.ingredients}/>
+        )}
+      </div>
     </div>
   );
 }

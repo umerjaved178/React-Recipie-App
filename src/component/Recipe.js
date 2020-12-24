@@ -1,15 +1,16 @@
 import React from 'react'
+import classes from "./Recipe.module.css"
 
 function Recipe(props) {
     return (
-        <div>
+        <div className={classes.recipe}>
             <h1>{props.title}</h1>
-            <p>Calories: {props.calories.toFixed(0)}</p>
+            <p> <b>Calories: </b>{props.calories.toFixed(0)}</p>
             <ul>
                 {props.ingredients.map(ingredient => 
                     <li key={ingredient.text}>{ingredient.text}</li>  )}
             </ul>
-            <img src={props.image} alt="" />
+            <img className={classes.image} src={props.image} alt="" />
         </div>
     )
 }
