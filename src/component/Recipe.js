@@ -7,8 +7,8 @@ function Recipe(props) {
             <h1>{props.title}</h1>
             <p> <b>Calories: </b>{props.calories.toFixed(0)}</p>
             <ul>
-                {props.ingredients.map(ingredient => 
-                    <li key={ingredient.text}>{ingredient.text}</li>  )}
+                {props.ingredients.map((ingredient, index) => 
+                    <li key={index}>{ingredient.text}</li>  )}
             </ul>
             <img className={classes.image} src={props.image} alt="" />
         </div>
