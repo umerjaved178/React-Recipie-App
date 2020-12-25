@@ -26,4 +26,4 @@ Go to Edamam website -> developer's section -> Get your API KEY and APP KEY.
 
 Create .env file in the root directory, insert the values using the predefined variable names in the App.js. (Don't remove REACT_APP from the start of .env variables)
 
-YOU ARE READY TO GO
+### YOU ARE READY TO GO
