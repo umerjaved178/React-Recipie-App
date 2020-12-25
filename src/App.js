@@ -6,8 +6,6 @@ import Recipe from './component/Recipe';
 
 
 function App() {
-  const APP_ID = "86b22245"
-  const APP_KEY = "14ed0dc21303c1b51cd3396f0054f53e"
 
   const [searchResult, setsearchResult] = useState([])
   const [formInput, setformInput] = useState("")
@@ -15,7 +13,7 @@ function App() {
   
 
   useEffect(() => {
-    axios.get(`https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_KEY}`)
+    axios.get(`https://api.edamam.com/search?q=${searchQuery}&app_id=${process.env.REACT_APP_APP_ID}&app_key=${process.env.REACT_APP_APP_KEY}`)
           .then(res=>setsearchResult(res.data.hits))
   }, [searchQuery])
 
