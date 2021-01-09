@@ -15,10 +15,11 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "Recipe-App"
-  env: "RecipeApp-env"
+  env: "RecipeApp-env" 
   bucket_name: "elasticbeanstalk-us-east-2-738554476805"
   bucket_path: "Recipe-App"
   on:
     branch: master
+
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
