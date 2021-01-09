@@ -1,6 +1,15 @@
 # Recipe App
 
-With the Recipe App you can search the recipies with your favorite ingredient. Just type it in the search form and you will get amazing recipies related to it.
+With the Recipe App you can search the recipies with your favorite ingredient. 
+Just type it in the search form and you will get amazing recipies related to it.
+You will get 
+    'Calories' & 
+    'Ingredients' & 
+    'Snap of Recipe'
+    
+    
+![alt text](https://github.com/umerjaved178/React-Recipie-App/blob/master/rawpng.PNG)
+
 
 
 ## Overview
@@ -17,4 +26,4 @@ Go to Edamam website -> developer's section -> Get your API KEY and APP KEY.
 
 Create .env file in the root directory, insert the values using the predefined variable names in the App.js. (Don't remove REACT_APP from the start of .env variables)
 
-YOU ARE READY TO GO
+### YOU ARE READY TO GO
