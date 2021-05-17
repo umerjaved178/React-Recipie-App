@@ -1,11 +1,6 @@
 # Recipe App
 
-With the Recipe App you can search the recipies with your favorite ingredient. 
-Just type it in the search form and you will get amazing recipies related to it.
-You will get 
-    'Calories' & 
-    'Ingredients' & 
-    'Snap of Recipe'
+###### With the Recipe App you can search the recipies with your favorite ingredient. Just type it in the search form and you will get amazing recipies related to it. You will get 'Calories' & 'Ingredients' & 'Snap of Recipe'
     
     
 ![alt text](https://github.com/umerjaved178/React-Recipie-App/blob/master/rawpng.PNG)
